@@ -29,7 +29,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="54dip"
-        android:background="@drawable/popup_top_dark"
         android:orientation="vertical">
         <LinearLayout android:id="@+id/titlePanel"
             android:layout_width="match_parent"
@@ -61,7 +60,6 @@
     <FrameLayout android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/popup_bottom_bright"
         />
 
 </LinearLayout>

@@ -16,6 +16,7 @@
 
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     >
@@ -31,7 +32,6 @@
         android:paddingBottom="26dip"
         android:paddingLeft="4dip"
         android:paddingRight="4dip"
-        android:background="@drawable/corpus_selector_bg"
         android:orientation="vertical"
         >
 
@@ -39,7 +39,6 @@
             android:id="@+id/corpus_selector_header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/corpus_selector_arrow"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
@@ -50,13 +49,11 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
+                android:gravity="center_vertical|left"
                 android:paddingLeft="16dip"
                 android:singleLine="true"
-                android:gravity="center_vertical|left"
-                android:textColor="@android:color/primary_text_light"
-                android:textSize="14dip"
                 android:text="@string/corpus_selection_heading"
-            />
+                android:textSize="14dip" />
 
             <ImageView
                 android:id="@+id/corpus_edit_items"
@@ -64,17 +61,17 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
-                android:paddingLeft="6dip"
-                android:paddingTop="6dip"
-                android:paddingBottom="6dip"
-                android:paddingRight="6dip"
-                android:gravity="center_vertical|right"
-                android:singleLine="true"
+                android:background="@drawable/corpus_edit_items_bg"
                 android:clickable="true"
                 android:focusable="true"
+                android:gravity="center_vertical|right"
+                android:paddingLeft="6dip"
+                android:paddingTop="6dip"
+                android:paddingRight="6dip"
+                android:paddingBottom="6dip"
+                android:singleLine="true"
                 android:src="@drawable/corpus_edit_icon"
-                android:background="@drawable/corpus_edit_items_bg"
-            />
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
         </RelativeLayout>
 
         <GridView

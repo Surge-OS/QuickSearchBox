@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QuickSearchBox.iml" filepath="$PROJECT_DIR$/QuickSearchBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/benchmarks/benchmarks.iml" filepath="$PROJECT_DIR$/benchmarks/benchmarks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/naughty/naughty.iml" filepath="$PROJECT_DIR$/tests/naughty/naughty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/partial/partial.iml" filepath="$PROJECT_DIR$/tests/partial/partial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/slow/slow.iml" filepath="$PROJECT_DIR$/tests/slow/slow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/spammy/spammy.iml" filepath="$PROJECT_DIR$/tests/spammy/spammy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/tests.iml" filepath="$PROJECT_DIR$/tests/tests.iml" />
+    </modules>
+  </component>
+</project>

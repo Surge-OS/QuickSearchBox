@@ -22,8 +22,6 @@ import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
-import java.util.Arrays;
-
 /**
  * A content provider that crashes when something is requested.
  */
@@ -48,10 +46,7 @@ public class CrashingIconProvider extends ContentProvider {
 
     @Override
     public int delete(Uri uri, String selection, String[] selectionArgs) {
-        if (DBG) {
-            Log.d(TAG, "delete(" + uri + ", " + selection + ", " +
-                    Arrays.toString(selectionArgs) + ")");
-        }
+        if (DBG) Log.d(TAG, "delete(" + uri + ", " + selection + ", " + selectionArgs + ")");
         throw new UnsupportedOperationException();
     }
 
