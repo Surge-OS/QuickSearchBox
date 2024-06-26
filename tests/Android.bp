@@ -22,7 +22,7 @@ package {
 
 android_test {
     name: "QuickSearchBoxTests",
-    sdk_version: "19",
+    sdk_version: "21",
     srcs: ["src/**/*.java"],
     certificate: "shared",
     instrumentation_for: "QuickSearchBox",
