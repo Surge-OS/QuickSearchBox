@@ -25,6 +25,7 @@ android_app {
     static_libs: [
         "guava",
         "android-common",
+        "com.google.android.material_material",
     ],
     srcs: [
         "src/**/*.java",
