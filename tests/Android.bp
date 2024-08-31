@@ -15,14 +15,16 @@
 //
 
 package {
+    default_team: "trendy_team_aosp",
     // http://go/android-license-faq
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
 android_test {
     name: "QuickSearchBoxTests",
-    sdk_version: "9",
+    sdk_version: "21",
     srcs: ["src/**/*.java"],
     certificate: "shared",
     instrumentation_for: "QuickSearchBox",
+    static_libs: ["androidx.test.rules"],
 }
