@@ -17,8 +17,7 @@
 <com.android.quicksearchbox.ui.SearchActivityViewSinglePane xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/search_activity_view"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FFFFFFFF">
+    android:layout_height="match_parent">
 
     <view
         class="com.android.quicksearchbox.ui.SuggestionsView"
