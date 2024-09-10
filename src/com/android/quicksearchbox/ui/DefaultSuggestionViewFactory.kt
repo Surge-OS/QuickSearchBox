@@ -30,7 +30,7 @@ class DefaultSuggestionViewFactory(context: Context?) : SuggestionViewFactory {
   private var mViewTypes: HashSet<String>? = null
 
   /** Must only be called from the constructor */
-  protected fun addFactory(factory: SuggestionViewFactory?) {
+  protected fun addFactory(factory: SuggestionViewFactory) {
     mFactories.addFirst(factory)
   }
 
