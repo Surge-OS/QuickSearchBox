@@ -14,13 +14,11 @@
      limitations under the License.
 -->
 
-<com.android.quicksearchbox.ui.SearchActivityViewSinglePane
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.android.quicksearchbox.ui.SearchActivityViewSinglePane xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/search_activity_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFFFF"
->
+    android:background="#FFFFFFFF">
 
     <view
         class="com.android.quicksearchbox.ui.SuggestionsView"
@@ -45,7 +43,6 @@
         android:paddingRight="4dip"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:background="@drawable/search_plate_global"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
@@ -66,7 +63,6 @@
             android:singleLine="true"
             android:ellipsize="end"
             android:inputType="text|textAutoComplete"
-            android:background="@drawable/textfield_search_empty_google"
             android:textSize="18sp"
             android:textStyle="normal"
             android:textColor="@android:color/primary_text_light"
@@ -74,25 +70,23 @@
             android:imeOptions="actionGo"
         />
 
-        <ImageButton 
+        <ImageButton
             android:id="@+id/search_go_btn"
-            android:background="@drawable/btn_search_dialog"
-            android:src="@drawable/ic_btn_search"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="6dip"
             android:layout_marginBottom="6dip"
-            android:visibility="gone"
-        />
+            android:foreground="#0000"
+            android:src="@drawable/ic_baseline_arrow_forward_24"
+            android:visibility="gone" />
 
         <ImageButton
             android:id="@+id/search_voice_btn"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/btn_search_dialog_voice"
-            android:src="@drawable/ic_btn_speak_now"
             android:layout_marginRight="-4dip"
-        />
+            android:foreground="#0000"
+            android:src="@drawable/ic_round_keyboard_voice_24" />
     </LinearLayout>
 
 </com.android.quicksearchbox.ui.SearchActivityViewSinglePane>

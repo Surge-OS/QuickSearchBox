@@ -16,7 +16,7 @@
 
 <resources>
 
-    <style name="Theme.QuickSearchBox" parent="@android:style/Theme.Light">
+    <style name="Theme.QuickSearchBox" parent="@android:style/Theme.Material">
     </style>
 
     <style name="Theme.QuickSearchBox.Search" parent="@style/Theme.QuickSearchBox">
@@ -29,11 +29,11 @@
         <item name="android:windowSoftInputMode">stateUnchanged|adjustResize</item>
     </style>
 
-    <style name="Theme.QuickSearchBox.SearchWidgetConfig" parent="@android:style/Theme.Dialog">
+    <style name="Theme.QuickSearchBox.SearchWidgetConfig" parent="@android:style/Theme.Material.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
-    <style name="Theme.SelectSearchSource" parent="@android:style/Theme.Light.NoTitleBar">
+    <style name="Theme.SelectSearchSource" parent="@android:style/Theme.Material.Light.NoActionBar">
         <item name="android:windowSoftInputMode">stateUnchanged|adjustResize</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowFrame">@null</item>

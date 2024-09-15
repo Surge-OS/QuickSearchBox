@@ -27,18 +27,17 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/magnifying_glass"
+        android:src="@drawable/ic_round_search_24"
     />
 
-    <ImageView android:id="@+id/icon2"
+    <ImageView
+        android:id="@+id/icon2"
         style="@style/SuggestionIcon2"
-        android:scaleType="centerInside"
-        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/ic_commit"
-        android:background="@drawable/suggestion_highlight"
-    />
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_round_mode_edit_24" />
 
     <TextView android:id="@+id/text1"
         style="@style/SuggestionText1"

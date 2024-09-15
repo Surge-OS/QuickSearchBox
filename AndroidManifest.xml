@@ -15,7 +15,9 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.android.quicksearchbox" >
+      package="com.android.quicksearchbox" 
+      android:versionCode="202023"
+        android:versionName="2.0">
 
     <original-package android:name="com.android.quicksearchbox" />
 

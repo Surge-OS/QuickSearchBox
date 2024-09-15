@@ -20,7 +20,6 @@
     android:layout_width="76dip"
     android:layout_height="76dip"
     android:padding="4dip"
-    android:background="@drawable/corpus_grid_item_bg"
     >
 
     <ImageView android:id="@+id/source_icon"
